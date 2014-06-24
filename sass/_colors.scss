@@ -1,0 +1,15 @@
+.beta-red {
+    .nav-primary {
+        background-color: $red;
+        border-top: 4px solid $red-dark;
+    }
+
+    .nav-primary > li:hover > a,
+    .nav-primary .current-menu-item > a {
+        background-color: $red-dark;
+    }
+
+    .nav-primary .sub-menu a:hover {
+        background-color: #fff;
+    }
+}

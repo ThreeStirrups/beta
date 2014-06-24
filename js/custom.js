@@ -1,0 +1,1 @@
+jQuery(".site-header").backstretch("http://images2.fanpop.com/image/photos/9800000/Great-Mountains-mountains-and-waterfalls-9841962-1920-1440.jpg");
