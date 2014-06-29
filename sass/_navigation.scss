@@ -70,10 +70,12 @@
     opacity: 1;
 }
 
+.genesis-nav-menu > .menu-item:first-child > a,
 .genesis-nav-menu > .first > a {
     padding-left: 0;
 }
 
+.genesis-nav-menu > .menu-item:last-child > a,
 .genesis-nav-menu > .last > a {
     padding-right: 0;
 }
@@ -109,8 +111,12 @@
     background-color: $color;
 }
 
-.nav-header .genesis-nav-menu > li:hover > a,
-.nav-header .current-menu-item > a {
+.nav-header .menu-item a {
+    padding: 28px 24px !important;
+    padding: 2.8rem 2.4rem !important;
+}
+
+.nav-header .genesis-nav-menu > li:hover > a {
     color: #fff;
     background-color: $color-dark;
 }

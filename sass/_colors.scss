@@ -1,31 +1,321 @@
 .beta-red {
-    .nav-primary {
+    button:hover,
+    input:hover[type="button"],
+    input:hover[type="reset"],
+    input:hover[type="submit"],
+    .button:hover,
+    .entry-content .button:hover {
+        background-color: $red;
+    }
+    .site-header {
         background-color: $red;
         border-top: 4px solid $red-dark;
     }
+    .nav-header {
+        background-color: $red;
+    }
 
-    .nav-primary > li:hover > a,
-    .nav-primary .current-menu-item > a {
+    .nav-header .genesis-nav-menu > li:hover > a {
+        color: #fff;
         background-color: $red-dark;
     }
-
-    .nav-primary .sub-menu a:hover {
-        background-color: #fff;
+    .home-featured-1 {
+        background-color: $red;
     }
-    .home-featured {
-        background-color: lighten($color, 45%);
+    .entry-content a {
+        color: $red;
+    }
+    .archive-pagination li a:hover,
+    .archive-pagination li.active a {
+        background-color: $red;
     }
     .before-footer {
-        background-color: $color;
+        background-color: $red;
         .simple-social-icons ul li {
             a {
-                background-color: $color-dark !important;
-                border: 2px solid $color-dark !important;
+                background-color: $red-dark !important;
+                border: 2px solid $red-dark !important;
             }
         }
         .simple-social-icons ul li a:hover {
-            color: $color-dark !important;
-            background-color: lighten($color, 45%) !important;
+            color: $red-dark !important;
+            background-color: #fff !important;
+        }
+    }
+}
+
+.beta-midnight {
+    button:hover,
+    input:hover[type="button"],
+    input:hover[type="reset"],
+    input:hover[type="submit"],
+    .button:hover,
+    .entry-content .button:hover {
+        background-color: $midnight;
+    }
+    .site-header {
+        background-color: $midnight;
+        border-top: 4px solid $midnight-dark;
+    }
+    .nav-header {
+        background-color: $midnight;
+    }
+
+    .nav-header .genesis-nav-menu > li:hover > a {
+        color: #fff;
+        background-color: $midnight-dark;
+    }
+    .home-featumidnight-1 {
+        background-color: $midnight;
+    }
+    .entry-content a {
+        color: $midnight;
+    }
+    .archive-pagination li a:hover,
+    .archive-pagination li.active a {
+        background-color: $midnight;
+    }
+    .before-footer {
+        background-color: $midnight;
+        .simple-social-icons ul li {
+            a {
+                background-color: $midnight-dark !important;
+                border: 2px solid $midnight-dark !important;
+            }
+        }
+        .simple-social-icons ul li a:hover {
+            color: $midnight-dark !important;
+            background-color: #fff !important;
+        }
+    }
+}
+
+.beta-sea {
+    button:hover,
+    input:hover[type="button"],
+    input:hover[type="reset"],
+    input:hover[type="submit"],
+    .button:hover,
+    .entry-content .button:hover {
+        background-color: $sea;
+    }
+    .site-header {
+        background-color: $sea;
+        border-top: 4px solid $sea-dark;
+    }
+    .nav-header {
+        background-color: $sea;
+    }
+
+    .nav-header .genesis-nav-menu > li:hover > a {
+        color: #fff;
+        background-color: $sea-dark;
+    }
+    .home-featusea-1 {
+        background-color: $sea;
+    }
+    .entry-content a {
+        color: $sea;
+    }
+    .archive-pagination li a:hover,
+    .archive-pagination li.active a {
+        background-color: $sea;
+    }
+    .before-footer {
+        background-color: $sea;
+        .simple-social-icons ul li {
+            a {
+                background-color: $sea-dark !important;
+                border: 2px solid $sea-dark !important;
+            }
+        }
+        .simple-social-icons ul li a:hover {
+            color: $sea-dark !important;
+            background-color: #fff !important;
+        }
+    }
+}
+
+.beta-green {
+    button:hover,
+    input:hover[type="button"],
+    input:hover[type="reset"],
+    input:hover[type="submit"],
+    .button:hover,
+    .entry-content .button:hover {
+        background-color: $green;
+    }
+    .site-header {
+        background-color: $green;
+        border-top: 4px solid $green-dark;
+    }
+    .nav-header {
+        background-color: $green;
+    }
+
+    .nav-header .genesis-nav-menu > li:hover > a {
+        color: #fff;
+        background-color: $green-dark;
+    }
+    .home-featugreen-1 {
+        background-color: $green;
+    }
+    .entry-content a {
+        color: $green;
+    }
+    .archive-pagination li a:hover,
+    .archive-pagination li.active a {
+        background-color: $green;
+    }
+    .before-footer {
+        background-color: $green;
+        .simple-social-icons ul li {
+            a {
+                background-color: $green-dark !important;
+                border: 2px solid $green-dark !important;
+            }
+        }
+        .simple-social-icons ul li a:hover {
+            color: $green-dark !important;
+            background-color: #fff !important;
+        }
+    }
+}
+
+.beta-orange {
+    button:hover,
+    input:hover[type="button"],
+    input:hover[type="reset"],
+    input:hover[type="submit"],
+    .button:hover,
+    .entry-content .button:hover {
+        background-color: $orange;
+    }
+    .site-header {
+        background-color: $orange;
+        border-top: 4px solid $orange-dark;
+    }
+    .nav-header {
+        background-color: $orange;
+    }
+
+    .nav-header .genesis-nav-menu > li:hover > a {
+        color: #fff;
+        background-color: $orange-dark;
+    }
+    .home-featuorange-1 {
+        background-color: $orange;
+    }
+    .entry-content a {
+        color: $orange;
+    }
+    .archive-pagination li a:hover,
+    .archive-pagination li.active a {
+        background-color: $orange;
+    }
+    .before-footer {
+        background-color: $orange;
+        .simple-social-icons ul li {
+            a {
+                background-color: $orange-dark !important;
+                border: 2px solid $orange-dark !important;
+            }
+        }
+        .simple-social-icons ul li a:hover {
+            color: $orange-dark !important;
+            background-color: #fff !important;
+        }
+    }
+}
+
+.beta-purple {
+    button:hover,
+    input:hover[type="button"],
+    input:hover[type="reset"],
+    input:hover[type="submit"],
+    .button:hover,
+    .entry-content .button:hover {
+        background-color: $purple;
+    }
+    .site-header {
+        background-color: $purple;
+        border-top: 4px solid $purple-dark;
+    }
+    .nav-header {
+        background-color: $purple;
+    }
+
+    .nav-header .genesis-nav-menu > li:hover > a {
+        color: #fff;
+        background-color: $purple-dark;
+    }
+    .home-featupurple-1 {
+        background-color: $purple;
+    }
+    .entry-content a {
+        color: $purple;
+    }
+    .archive-pagination li a:hover,
+    .archive-pagination li.active a {
+        background-color: $purple;
+    }
+    .before-footer {
+        background-color: $purple;
+        .simple-social-icons ul li {
+            a {
+                background-color: $purple-dark !important;
+                border: 2px solid $purple-dark !important;
+            }
+        }
+        .simple-social-icons ul li a:hover {
+            color: $purple-dark !important;
+            background-color: #fff !important;
+        }
+    }
+}
+
+.beta-yellow {
+    button:hover,
+    input:hover[type="button"],
+    input:hover[type="reset"],
+    input:hover[type="submit"],
+    .button:hover,
+    .entry-content .button:hover {
+        background-color: $yellow;
+    }
+    .site-header {
+        background-color: $yellow;
+        border-top: 4px solid $yellow-dark;
+    }
+    .nav-header {
+        background-color: $yellow;
+    }
+
+    .nav-header .genesis-nav-menu > li:hover > a {
+        color: #fff;
+        background-color: $yellow-dark;
+    }
+    .home-featuyellow-1 {
+        background-color: $yellow;
+    }
+    .entry-content a {
+        color: $yellow;
+    }
+    .archive-pagination li a:hover,
+    .archive-pagination li.active a {
+        background-color: $yellow;
+    }
+    .before-footer {
+        background-color: $yellow;
+        .simple-social-icons ul li {
+            a {
+                background-color: $yellow-dark !important;
+                border: 2px solid $yellow-dark !important;
+            }
+        }
+        .simple-social-icons ul li a:hover {
+            color: $yellow-dark !important;
+            background-color: #fff !important;
         }
     }
 }

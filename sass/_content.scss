@@ -13,7 +13,7 @@
 
 .entry-content a {
     border-bottom: 1px solid #ddd;
-    color: #f15123;
+    color: $color;
 }
 
 .entry-content a:hover {
@@ -117,7 +117,7 @@
 
 .archive-pagination li a:hover,
 .archive-pagination li.active a {
-    background-color: #f15123;
+    background-color: $color;
 }
 
 .entry-pagination a {

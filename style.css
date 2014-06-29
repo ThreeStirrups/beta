@@ -502,7 +502,7 @@ input:hover[type="reset"],
 input:hover[type="submit"],
 .button:hover,
 .entry-content .button:hover {
-  background-color: #f15123;
+  background-color: #3498db;
 }
 
 .entry-content .button:hover {
@@ -868,44 +868,6 @@ img.alignright,
 
 /* Plugins
 =====================================================================================================*/
-/* Genesis eNews Extended
---------------------------------------------- */
-.enews-widget {
-  color: #999;
-}
-
-.enews-widget .widget-title {
-  color: #fff;
-}
-
-.enews-widget input {
-  margin-bottom: 16px;
-  margin-bottom: 1.6rem;
-}
-
-.enews-widget input:focus {
-  border: 1px solid #ddd;
-}
-
-.enews-widget input[type="submit"] {
-  background-color: #f15123;
-  color: #fff;
-  margin: 0;
-  width: 100%;
-}
-
-.enews-widget input:hover[type="submit"] {
-  background-color: #fff;
-  color: #333;
-}
-
-/* Genesis Latest Tweets
---------------------------------------------- */
-.latest-tweets ul li {
-  margin-bottom: 16px;
-  margin-bottom: 1.6rem;
-}
-
 /* Gravity Forms
 --------------------------------------------- */
 div.gform_wrapper input[type="email"],
@@ -1094,10 +1056,12 @@ img#wpstats {
   opacity: 1;
 }
 
+.genesis-nav-menu > .menu-item:first-child > a,
 .genesis-nav-menu > .first > a {
   padding-left: 0;
 }
 
+.genesis-nav-menu > .menu-item:last-child > a,
 .genesis-nav-menu > .last > a {
   padding-right: 0;
 }
@@ -1132,8 +1096,12 @@ img#wpstats {
   background-color: #3498db;
 }
 
-.nav-header .genesis-nav-menu > li:hover > a,
-.nav-header .current-menu-item > a {
+.nav-header .menu-item a {
+  padding: 28px 24px !important;
+  padding: 2.8rem 2.4rem !important;
+}
+
+.nav-header .genesis-nav-menu > li:hover > a {
   color: #fff;
   background-color: #2980b9;
 }
@@ -1169,7 +1137,7 @@ img#wpstats {
 
 .entry-content a {
   border-bottom: 1px solid #ddd;
-  color: #f15123;
+  color: #3498db;
 }
 
 .entry-content a:hover {
@@ -1272,7 +1240,7 @@ img#wpstats {
 
 .archive-pagination li a:hover,
 .archive-pagination li.active a {
-  background-color: #f15123;
+  background-color: #3498db;
 }
 
 .entry-pagination a {
@@ -1556,42 +1524,303 @@ li.comment {
 }
 
 .home-featured-1 {
-  background-color: #f7fbfe;
+  background-color: #3498db;
 }
 
 .home-featured-2 {
   background-color: #333;
 }
 .home-featured-2 .widget-area .widget {
-  background-color: #3498db;
+  background-color: #f5f5f5;
 }
 
 /* Colors
 =====================================================================================================*/
-.beta-red .nav-primary {
+.beta-red button:hover,
+.beta-red input:hover[type="button"],
+.beta-red input:hover[type="reset"],
+.beta-red input:hover[type="submit"],
+.beta-red .button:hover,
+.beta-red .entry-content .button:hover {
+  background-color: #e74c3c;
+}
+.beta-red .site-header {
   background-color: #e74c3c;
   border-top: 4px solid #c0392b;
 }
-.beta-red .nav-primary > li:hover > a,
-.beta-red .nav-primary .current-menu-item > a {
+.beta-red .nav-header {
+  background-color: #e74c3c;
+}
+.beta-red .nav-header .genesis-nav-menu > li:hover > a {
+  color: #fff;
   background-color: #c0392b;
 }
-.beta-red .nav-primary .sub-menu a:hover {
-  background-color: #fff;
+.beta-red .home-featured-1 {
+  background-color: #e74c3c;
 }
-.beta-red .home-featured {
-  background-color: #f7fbfe;
+.beta-red .entry-content a {
+  color: #e74c3c;
+}
+.beta-red .archive-pagination li a:hover,
+.beta-red .archive-pagination li.active a {
+  background-color: #e74c3c;
 }
 .beta-red .before-footer {
-  background-color: #3498db;
+  background-color: #e74c3c;
 }
 .beta-red .before-footer .simple-social-icons ul li a {
-  background-color: #2980b9 !important;
-  border: 2px solid #2980b9 !important;
+  background-color: #c0392b !important;
+  border: 2px solid #c0392b !important;
 }
 .beta-red .before-footer .simple-social-icons ul li a:hover {
-  color: #2980b9 !important;
-  background-color: #f7fbfe !important;
+  color: #c0392b !important;
+  background-color: #fff !important;
+}
+
+.beta-midnight button:hover,
+.beta-midnight input:hover[type="button"],
+.beta-midnight input:hover[type="reset"],
+.beta-midnight input:hover[type="submit"],
+.beta-midnight .button:hover,
+.beta-midnight .entry-content .button:hover {
+  background-color: #34495e;
+}
+.beta-midnight .site-header {
+  background-color: #34495e;
+  border-top: 4px solid #2c3e50;
+}
+.beta-midnight .nav-header {
+  background-color: #34495e;
+}
+.beta-midnight .nav-header .genesis-nav-menu > li:hover > a {
+  color: #fff;
+  background-color: #2c3e50;
+}
+.beta-midnight .home-featumidnight-1 {
+  background-color: #34495e;
+}
+.beta-midnight .entry-content a {
+  color: #34495e;
+}
+.beta-midnight .archive-pagination li a:hover,
+.beta-midnight .archive-pagination li.active a {
+  background-color: #34495e;
+}
+.beta-midnight .before-footer {
+  background-color: #34495e;
+}
+.beta-midnight .before-footer .simple-social-icons ul li a {
+  background-color: #2c3e50 !important;
+  border: 2px solid #2c3e50 !important;
+}
+.beta-midnight .before-footer .simple-social-icons ul li a:hover {
+  color: #2c3e50 !important;
+  background-color: #fff !important;
+}
+
+.beta-sea button:hover,
+.beta-sea input:hover[type="button"],
+.beta-sea input:hover[type="reset"],
+.beta-sea input:hover[type="submit"],
+.beta-sea .button:hover,
+.beta-sea .entry-content .button:hover {
+  background-color: #1abc9c;
+}
+.beta-sea .site-header {
+  background-color: #1abc9c;
+  border-top: 4px solid #16a085;
+}
+.beta-sea .nav-header {
+  background-color: #1abc9c;
+}
+.beta-sea .nav-header .genesis-nav-menu > li:hover > a {
+  color: #fff;
+  background-color: #16a085;
+}
+.beta-sea .home-featusea-1 {
+  background-color: #1abc9c;
+}
+.beta-sea .entry-content a {
+  color: #1abc9c;
+}
+.beta-sea .archive-pagination li a:hover,
+.beta-sea .archive-pagination li.active a {
+  background-color: #1abc9c;
+}
+.beta-sea .before-footer {
+  background-color: #1abc9c;
+}
+.beta-sea .before-footer .simple-social-icons ul li a {
+  background-color: #16a085 !important;
+  border: 2px solid #16a085 !important;
+}
+.beta-sea .before-footer .simple-social-icons ul li a:hover {
+  color: #16a085 !important;
+  background-color: #fff !important;
+}
+
+.beta-green button:hover,
+.beta-green input:hover[type="button"],
+.beta-green input:hover[type="reset"],
+.beta-green input:hover[type="submit"],
+.beta-green .button:hover,
+.beta-green .entry-content .button:hover {
+  background-color: #2ecc71;
+}
+.beta-green .site-header {
+  background-color: #2ecc71;
+  border-top: 4px solid #27ae60;
+}
+.beta-green .nav-header {
+  background-color: #2ecc71;
+}
+.beta-green .nav-header .genesis-nav-menu > li:hover > a {
+  color: #fff;
+  background-color: #27ae60;
+}
+.beta-green .home-featugreen-1 {
+  background-color: #2ecc71;
+}
+.beta-green .entry-content a {
+  color: #2ecc71;
+}
+.beta-green .archive-pagination li a:hover,
+.beta-green .archive-pagination li.active a {
+  background-color: #2ecc71;
+}
+.beta-green .before-footer {
+  background-color: #2ecc71;
+}
+.beta-green .before-footer .simple-social-icons ul li a {
+  background-color: #27ae60 !important;
+  border: 2px solid #27ae60 !important;
+}
+.beta-green .before-footer .simple-social-icons ul li a:hover {
+  color: #27ae60 !important;
+  background-color: #fff !important;
+}
+
+.beta-orange button:hover,
+.beta-orange input:hover[type="button"],
+.beta-orange input:hover[type="reset"],
+.beta-orange input:hover[type="submit"],
+.beta-orange .button:hover,
+.beta-orange .entry-content .button:hover {
+  background-color: #e67e22;
+}
+.beta-orange .site-header {
+  background-color: #e67e22;
+  border-top: 4px solid #d35400;
+}
+.beta-orange .nav-header {
+  background-color: #e67e22;
+}
+.beta-orange .nav-header .genesis-nav-menu > li:hover > a {
+  color: #fff;
+  background-color: #d35400;
+}
+.beta-orange .home-featuorange-1 {
+  background-color: #e67e22;
+}
+.beta-orange .entry-content a {
+  color: #e67e22;
+}
+.beta-orange .archive-pagination li a:hover,
+.beta-orange .archive-pagination li.active a {
+  background-color: #e67e22;
+}
+.beta-orange .before-footer {
+  background-color: #e67e22;
+}
+.beta-orange .before-footer .simple-social-icons ul li a {
+  background-color: #d35400 !important;
+  border: 2px solid #d35400 !important;
+}
+.beta-orange .before-footer .simple-social-icons ul li a:hover {
+  color: #d35400 !important;
+  background-color: #fff !important;
+}
+
+.beta-purple button:hover,
+.beta-purple input:hover[type="button"],
+.beta-purple input:hover[type="reset"],
+.beta-purple input:hover[type="submit"],
+.beta-purple .button:hover,
+.beta-purple .entry-content .button:hover {
+  background-color: #9b59b6;
+}
+.beta-purple .site-header {
+  background-color: #9b59b6;
+  border-top: 4px solid #8e44ad;
+}
+.beta-purple .nav-header {
+  background-color: #9b59b6;
+}
+.beta-purple .nav-header .genesis-nav-menu > li:hover > a {
+  color: #fff;
+  background-color: #8e44ad;
+}
+.beta-purple .home-featupurple-1 {
+  background-color: #9b59b6;
+}
+.beta-purple .entry-content a {
+  color: #9b59b6;
+}
+.beta-purple .archive-pagination li a:hover,
+.beta-purple .archive-pagination li.active a {
+  background-color: #9b59b6;
+}
+.beta-purple .before-footer {
+  background-color: #9b59b6;
+}
+.beta-purple .before-footer .simple-social-icons ul li a {
+  background-color: #8e44ad !important;
+  border: 2px solid #8e44ad !important;
+}
+.beta-purple .before-footer .simple-social-icons ul li a:hover {
+  color: #8e44ad !important;
+  background-color: #fff !important;
+}
+
+.beta-yellow button:hover,
+.beta-yellow input:hover[type="button"],
+.beta-yellow input:hover[type="reset"],
+.beta-yellow input:hover[type="submit"],
+.beta-yellow .button:hover,
+.beta-yellow .entry-content .button:hover {
+  background-color: #f1c40f;
+}
+.beta-yellow .site-header {
+  background-color: #f1c40f;
+  border-top: 4px solid #f39c12;
+}
+.beta-yellow .nav-header {
+  background-color: #f1c40f;
+}
+.beta-yellow .nav-header .genesis-nav-menu > li:hover > a {
+  color: #fff;
+  background-color: #f39c12;
+}
+.beta-yellow .home-featuyellow-1 {
+  background-color: #f1c40f;
+}
+.beta-yellow .entry-content a {
+  color: #f1c40f;
+}
+.beta-yellow .archive-pagination li a:hover,
+.beta-yellow .archive-pagination li.active a {
+  background-color: #f1c40f;
+}
+.beta-yellow .before-footer {
+  background-color: #f1c40f;
+}
+.beta-yellow .before-footer .simple-social-icons ul li a {
+  background-color: #f39c12 !important;
+  border: 2px solid #f39c12 !important;
+}
+.beta-yellow .before-footer .simple-social-icons ul li a:hover {
+  color: #f39c12 !important;
+  background-color: #fff !important;
 }
 
 /* Responsive

@@ -7,12 +7,18 @@ function beta_home_meta() {
     if ( is_home() ) {
 
     //* Remove entry meta in entry footer and Genesis loop
-    remove_action( 'genesis_loop', 'genesis_do_loop' );
+    // remove_action( 'genesis_loop', 'genesis_do_loop' );
+
+    //* Remove pagination
+    remove_action( 'genesis_after_endwhile', 'genesis_posts_nav' );
 
     //* Force full width content layout
     add_filter( 'genesis_pre_get_option_site_layout', '__genesis_return_full_width_content' );
 
     }
+
+    //* Add home banner
+    add_action('genesis_after_header', 'beta_home_banner', 5);
 
     if ( is_active_sidebar( 'home-featured-1' ) || is_active_sidebar( 'home-featured-2' ) || is_active_sidebar( 'home-featured-3' ) ) {
 
@@ -21,10 +27,9 @@ function beta_home_meta() {
 
     }
 
-    add_action('genesis_after_header', 'beta_home_banner', 5);
-
 }
 
+//* Add site description and widget area into home banner
 function beta_home_banner() {
     echo'<div class="home-banner"><div class="wrap">';
     do_action('beta_banner');
