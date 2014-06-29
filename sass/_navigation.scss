@@ -21,15 +21,6 @@
     position: relative;
 }
 
-.genesis-nav-menu a:hover,
-.genesis-nav-menu .current-menu-item > a,
-.genesis-nav-menu .sub-menu .current-menu-item > a:hover {
-}
-
-.genesis-nav-menu .sub-menu .current-menu-item > a {
-    color: #fff;
-}
-
 .genesis-nav-menu > .menu-item > a {
     text-transform: uppercase;
 }
@@ -58,6 +49,12 @@
     position: relative;
     width: 200px;
     font-weight: 600;
+    color: #999;
+}
+
+.genesis-nav-menu .sub-menu a:hover {
+    color: #333;
+    background-color: #fff;
 }
 
 .genesis-nav-menu .sub-menu .sub-menu {
@@ -108,40 +105,30 @@
 /* Site Header Navigation
 --------------------------------------------- */
 
-.site-header .sub-menu {
-    border-top: 1px solid #eee;
+.nav-header {
+    background-color: $color;
 }
 
-.site-header .sub-menu .sub-menu {
-    margin-top: -55px;
+.nav-header .genesis-nav-menu > li:hover > a,
+.nav-header .current-menu-item > a {
+    color: #fff;
+    background-color: $color-dark;
 }
 
 /* Primary Navigation
 --------------------------------------------- */
 
-.nav-primary {
-    background-color: $color;
-    border-top: 4px solid $color-dark;
-}
-
-.nav-primary li:hover > a,
-.nav-primary .current-menu-item > a {
-    color: #fff;
-    background-color: $color-dark;
-}
-
-.nav-primary .sub-menu a {
-    color: #999;
-}
-
-.nav-primary .sub-menu a:hover {
-    color: #333;
-    background-color: #fff;
+.nav-primary{
+    background-color: #333;
 }
 
 /* Secondary Navigation
 --------------------------------------------- */
 
-.nav-secondary {
-    background-color: #333;
+.nav-secondary{
+    background-color: #f5f5f5;
+}
+
+.nav-secondary a {
+    color: #333;
 }

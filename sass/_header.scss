@@ -1,23 +1,20 @@
 
 .site-header {
-    min-height: 500px;
-}
-
-.site-header .wrap {
-    padding: 40px 0;
-    padding: 4rem 0;
+    // min-height: 500px;
+    background-color: $color;
+    border-top: 4px solid $color-dark;
 }
 
 /* Title Area
 --------------------------------------------- */
 
 .title-area {
-    text-align: center;
     font-family: $font-sans;
     font-weight: 700;
     padding: 16px 0;
     padding: 1.6rem 0;
     width: 320px;
+    float: left;
 }
 
 .header-image .title-area {
@@ -25,26 +22,16 @@
 }
 
 .site-title {
-    font-size: 64px;
-    font-size: 6.4rem;
+    font-size: 48px;
+    font-size: 4.8rem;
     line-height: 1;
-    margin: 0 0 8px;
-    margin: 0 0 0.8rem;
+    margin: 0;
     text-transform: uppercase;
 }
 
 .site-title a,
 .site-title a:hover {
-    color: #333;
-}
-
-.site-description {
-    color: #999;
-    font-size: 16px;
-    font-size: 1.6rem;
-    font-weight: 300;
-    line-height: 1;
-    margin-bottom: 0;
+    color: #fff;
 }
 
 /* Full width header, no widgets */

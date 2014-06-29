@@ -1,6 +1,6 @@
 
 .site-footer {
-    background-color: #fff;
+    background-color: #333;
     color: #999;
     font-size: 14px;
     font-size: 1.4rem;
@@ -10,7 +10,11 @@
 }
 
 .site-footer a {
-    border-bottom: 1px solid #ddd;
+    color: #ccc;
+}
+
+.site-footer a:hover {
+    color: #fff;
 }
 
 .site-footer p {

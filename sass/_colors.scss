@@ -12,4 +12,20 @@
     .nav-primary .sub-menu a:hover {
         background-color: #fff;
     }
+    .home-featured {
+        background-color: lighten($color, 45%);
+    }
+    .before-footer {
+        background-color: $color;
+        .simple-social-icons ul li {
+            a {
+                background-color: $color-dark !important;
+                border: 2px solid $color-dark !important;
+            }
+        }
+        .simple-social-icons ul li a:hover {
+            color: $color-dark !important;
+            background-color: lighten($color, 45%) !important;
+        }
+    }
 }

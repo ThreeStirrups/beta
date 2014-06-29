@@ -1,3 +1,19 @@
+.before-footer {
+    background-color: $color;
+    padding: 40px 0;
+    .simple-social-icons ul li {
+        margin-bottom: 0 !important;
+        a {
+            color: #fff !important;
+            background-color: $color-dark !important;
+            border: 2px solid $color-dark !important;
+        }
+    }
+    .simple-social-icons ul li a:hover {
+        color: $color-dark !important;
+        background-color: lighten($color, 45%) !important;
+    }
+}
 
 .footer-widgets {
     background-color: #333;
